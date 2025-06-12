@@ -38,4 +38,8 @@ void main() {
   toppings.clear();
   print(toppings);
 
+  // Another way to initialize maps Map<KeyType, ValueType>();
+  var gifts = Map<String, String>();
+  gifts["first"] = "ring";
+  print(gifts);
 }
