@@ -1,11 +1,8 @@
+// A standard library for input and output in dart
 import 'dart:io';
 
-void main(List<String> args) {
-  // Getting user input
-  print("Enter your name: ");
-
-  // Using stdin.readLineSync() for string input
-  String? name =  stdin.readLineSync();
-
-  print("Hello, $name!");
+void main(){
+  print("Enter your name");
+  String? name = stdin.readLineSync();
+  print("Hello $name");
 }
